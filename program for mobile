@@ -1,0 +1,21 @@
+class Mobile
+{
+public void switchon()
+{
+System.out.println("Welcome To the Android Phone");
+}
+public void OpenUI(){
+System.out.println("App is opened ");
+}
+public void installApps(){}
+
+}
+class Main
+{
+public static void main(String args[]){
+Mobile mobile = new Mobile();
+mobile.switchon();
+mobile.OpenUI();
+}
+}
+
