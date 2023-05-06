@@ -1,0 +1,33 @@
+public class Car {
+	public static void main(String args[]){
+		Carfunctions carfunctions = new Carfunctions();
+		carfunctions.leftturn();
+		carfunctions.opendoors();
+		carfunctions.rightturn();
+		carfunctions.seatadjustment();
+		carfunctions.presshorn();
+
+	}
+}
+class Carfunctions{
+	public void rightturn()
+	{
+	System.out.println("Heading right");
+	}	
+	public void leftturn()
+	{
+	System.out.println("Heading left");
+	}
+	public void seatadjustment()
+	{
+	System.out.println("Seat is adjusted");
+	}	
+	public void opendoors()
+	{
+	System.out.println("Doors are opened");
+	}
+	public void presshorn()
+	{
+	System.out.println("Beep");
+	}	
+}
